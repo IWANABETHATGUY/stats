@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664091838548,
+  "lastUpdate": 1664092232388,
   "repoUrl": "https://github.com/IWANABETHATGUY/benchmark-gh-action-rs",
   "entries": {
     "Rust Benchmark": [
@@ -58,6 +58,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchFib20",
             "value": 5,
+            "range": "± 0",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "distinct": true,
+          "id": "75e0b8bdc50866cffe22b781b8f78d1cfa71cbcb",
+          "message": "chore: 🤖 create a sign comment",
+          "timestamp": "2022-09-25T15:48:27+08:00",
+          "tree_id": "ead805426a113dd4622d34c4d9411ba2104993ac",
+          "url": "https://github.com/IWANABETHATGUY/benchmark-gh-action-rs/commit/75e0b8bdc50866cffe22b781b8f78d1cfa71cbcb"
+        },
+        "date": 1664092232193,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "BenchFib20",
+            "value": 6,
             "range": "± 0",
             "unit": "ns/iter"
           }
